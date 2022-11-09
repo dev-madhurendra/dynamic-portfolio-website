@@ -31,7 +31,6 @@ app.listen(process.env.PORT || PORT, () =>
   console.log(`server is running in port ${PORT}`)
 );
 
-
 mongoose
   .connect(process.env.DATA_BASE_CONNECTION, {
     useUnifiedTopology: true,
